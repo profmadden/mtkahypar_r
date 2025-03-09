@@ -5,16 +5,7 @@
 #include <iostream>
 #include <thread>
 #include <libkahypar.h>
-static kahypar_context_t *context = NULL;
 
-
-#if __has_include("disabled-libmtkahypar.h")
-#define HAS_MT 1
-#include <libmtkahypar.h>
-static mt_kahypar_context_t *mtcontext = NULL;
-#else
-#define HAS_MT 0
-#endif
 #include <mtkahypar.h>
 
 #define LDBG 0
