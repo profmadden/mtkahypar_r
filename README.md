@@ -1,9 +1,9 @@
-# kahypar_r
-KaHyPar wrapper library for Rust
+# mtkahypar_r
+mt-KaHyPar wrapper library for Rust
 
 --
 
-Install kahypar.ini somewhere readable on the machine; the partitioner needs to be able to find this file and load it in for a partitioning context.  Essentially, a configuration file.
+Install mtkahypar.ini somewhere readable on the machine; the partitioner needs to be able to find this file and load it in for a partitioning context.  Essentially, a configuration file.
 
 The KaHyPar library also needs to be installed.  Download and build from [kaypar.org](https://kahypar.org)
 
